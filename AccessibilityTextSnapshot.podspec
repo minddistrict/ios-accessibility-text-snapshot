@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AccessibilityTextSnapshot"
-  s.version          = "0.1" 
+  s.version          = "0.2" 
   s.summary          = "Textual snapshot tests for your app's VoiceOver support"
   s.homepage         = "https://github.com/minddistrict/ios-accessibility-text-snapshot"
   s.license          = 'MIT'
