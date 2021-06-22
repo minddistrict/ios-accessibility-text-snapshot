@@ -16,10 +16,9 @@ This strategy uses a _textual_ representation of the view hierarchy, focusing on
 This generates a recursive (textual) description of all voiceover-relevant information, suitable for snapshot testing.
 
 The string shows
-
-    * all UIView subclasses with isAccessibilityElement true, together with their ancestor UIViews (if any) to show hierarchy
-    * their voiceover-relevant properties (accessibilityValue, accessibilityLabel, etc)
-    * any a11y-relevant *sub*views they might have, prefixed by `| ` to emphasise that they are *not* involved in VoiceOver
+* all UIView subclasses with isAccessibilityElement true, together with their ancestor UIViews (if any) to show hierarchy
+* their voiceover-relevant properties (accessibilityValue, accessibilityLabel, etc) 
+* any a11y-relevant *sub*views they might have, prefixed by `| ` to emphasise that they are *not* involved in VoiceOver
 
 It does *not* show UIImageViews, which we maybe should reconsider at some point.
 
