@@ -20,7 +20,7 @@ Example:
            * UIStackView                           // ...
              * MDViewLayer.ElementView
                * UIStackView
-                 * MDViewModels.Label              // | means a11y-relevant view
+                 * MDViewModels.Label              // | hanging from this view means it has a11y-relevant stuff
                  | -label: Relaxation exercises    // a11y property
                  | -traits: .staticText            // a11y property
                  * UIStackView
@@ -32,7 +32,7 @@ Example:
                    | -label: No
                    | -hint: Unselected option
                    | -traits: .button
-             * MDViewLayer.ConversationListItemView // | means a11y-relevant view
+             * MDViewLayer.ConversationListItemView // hanging | means a11y-relevant view
              | -label: Only you. No messages yet    // a11y property
              | -hint: Open conversation             // a11y property
              | * UIStackView                        // subviews that would be a11y-relevant
