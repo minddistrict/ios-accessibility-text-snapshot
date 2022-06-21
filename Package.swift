@@ -10,8 +10,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "ios-accessibility-text-snapshot",
-            targets: ["ios-accessibility-text-snapshot"]
+            name: "AccessibilityTextSnapshot",
+            targets: ["AccessibilityTextSnapshot"]
         ),
     ],
     dependencies: [
@@ -23,7 +23,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ios-accessibility-text-snapshot",
+            name: "AccessibilityTextSnapshot",
             dependencies: ["SnapshotTesting"],
             path: "Sources"
         )
